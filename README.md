@@ -23,10 +23,14 @@ Oil Spill: positive case, or minority class.
 
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/Label_distribution.png">
 
+2. Feature selection: I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
-3. 
-4. Which states have the most dogs in shelters and what breeds/types those are? Does it have anything to do with the population in each states?
-5. Are there any trends in the types/breeds of dogs being brought into shelters?
+3. Splitting the dataset to train, test sets based on the following specifications: Train size: 75%, test size: 25%, stratifying based on the y label  to ensure that both the train and test sets have the proportion of examples in each class that is present in the provided y label, especially for imbalance dataset. After that, I normalized both train and test datasets using the StandardScaller() to remove the mean and scaling to unit variance. 
+
+4. Data augmentation: Since the dataset is highly imbalanced, i implemented multiple data augmentation techniques to improve the quality of the dataset based on the following algorithms:
+ 
+6. Which states have the most dogs in shelters and what breeds/types those are? Does it have anything to do with the population in each states?
+7. Are there any trends in the types/breeds of dogs being brought into shelters?
 
 ### Methods Used
 * Data Cleaning and Wrangling
