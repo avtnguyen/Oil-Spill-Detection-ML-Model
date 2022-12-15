@@ -36,8 +36,10 @@ Oil Spill: positive case, or minority class.
 
 Source: [Imbalanced learn](https://imbalanced-learn.org/stable/references/over_sampling.html)
  
-5. Build a simple deep learning network and combine with multiple data augmentation techniques.
+5. Build a simple deep learning network and combine with multiple data augmentation techniques [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_deepLearningModel.ipynb)
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/DNN_summary.png">
+
+6. Implement ensemble learning algorithms, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection
 
 ### Methods Used
 * Data Cleaning and Wrangling
