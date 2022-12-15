@@ -31,7 +31,9 @@ Oil Spill: positive case, or minority class.
 
 * Synthetic Minority Oversampling Technique(SMOTE): The sample in minority class is first selected randomly and its k nearest minority class neighbors are found based on the K-nearest neighbors algorithm. The synthetic data is generated between two instances in feature space. 
 * Adaptive Synthetic Sampling (ADASYN): The synthetic data for minority class is generated based on the desnity distribution of the minority class. Specifically, more data is created in area with low density of minority class and less data is generated in area with high density of minority example
-* SMOTE-TOMEK: 
+* SMOTE-TOMEK: Combine SMOTE and TOMEK techniqes where the oversampling technique for minority class and the cleaning using Tomek links.  
+* SMOTE- ENN: Combine SMOTE and Edited Nearest Neighbours (ENN) techniques where the oversampling technique for minority class and the cleaning using ENN
+Source: [Imbalanced learn](source: https://imbalanced-learn.org/stable/references/over_sampling.html)
  
 6. Which states have the most dogs in shelters and what breeds/types those are? Does it have anything to do with the population in each states?
 7. Are there any trends in the types/breeds of dogs being brought into shelters?
