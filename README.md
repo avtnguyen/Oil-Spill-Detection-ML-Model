@@ -96,9 +96,9 @@ For imbalance dataset and classification model, the following metrics are used t
 3. Data processing and modeling scripts are being kept [here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/)
 
 ## References:
-* Raw data is obtained from [Kaggle](https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection)
-* For further reading about dog shelters: [Challenges in animal shelters](https://globalnews.ca/news/8997583/canadian-animal-shelters-challenges/),
-[Popular breeds in dog shelters](https://rescuedoghome.com/why-are-there-so-many-pit-bulls-and-chihuahuas-in-shelters/#Chihuahuas_in_Shelters)
+* https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
+* https://imbalanced-learn.org/stable/references
+* https://machinelearningmastery.com/framework-for-imbalanced-classification-projects)
 
 ## Contributing Members
 
