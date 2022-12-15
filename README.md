@@ -52,7 +52,7 @@ For imbalance dataset and classification model, the following metrics are used t
 | ------------|:----------------------------:| ----------:|-------:|-----:|
 | DNN         | None                         |   0.114    |0.9     |0.202 |
 | DNN         | SMOTE                        |   0.267    |0.8     |0.4   |
-| **DNN         | SMOTE+TOMEK                |   0.385    |0.5     |0.435** |
+| DNN         | SMOTE+TOMEK                  |   0.385    |0.5     |0.435 |
 | DNN         | Hybrid                       |   0.207    |0.6     |0.308 |
 
 
