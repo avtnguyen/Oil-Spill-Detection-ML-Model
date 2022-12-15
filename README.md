@@ -48,10 +48,10 @@ For imbalance dataset and classification model, the following metrics are used t
 * f1 score
 
 ### Results:
-- Both the precision, recall and f1 scores are low in all model. This could be due to the small imbalance dataset that we have.
-- Given the dataset without any resampling technique, XGBoost outperformed other algorithm
+- Both the precision, recall and f1 scores are low in all models. This could be due to the small imbalance dataset that we have.
+- Given the dataset without any resampling technique, XGBoost outperformed other algorithms.
 - When data augmentation technique is implemented, the performance of Random Forrest model is improved significantly using SMOTE+TOMEK technique as shown in table below.
-- More data is needed to improve the model accuracy to detect oil spill event
+- More data is needed to improve the model accuracy for oil spill detection
 
 
 | model       | resample                     | precision  | recall | f1   |
