@@ -98,7 +98,7 @@ For imbalance dataset and classification model, the following metrics are used t
 ## References:
 * https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
 * https://imbalanced-learn.org/stable/references
-* https://machinelearningmastery.com/framework-for-imbalanced-classification-projects)
+* https://machinelearningmastery.com/framework-for-imbalanced-classification-projects
 
 ## Contributing Members
 
