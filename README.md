@@ -48,12 +48,22 @@ For imbalance dataset and classification model, the following metrics are used t
 * f1 score
 
 ### Results:
+- Both the precision, recall and f1 scores are low in all model. This could be due to the small imbalance dataset that we have. More data is needed to improve the model accuracy to detect oil spill event
+- Given the dataset without any resampling technique, XGBoost outperformed other algorithm, which is expected since the model 
+
+
 | model       | resample                     | precision  | recall | f1   |
 | ------------|:----------------------------:| ----------:|-------:|-----:|
-| DNN         | None                         |   0.114    |0.9     |0.202 |
 | DNN         | SMOTE                        |   0.267    |0.8     |0.4   |
 | DNN         | SMOTE+TOMEK                  |   0.385    |0.5     |0.435 |
-| DNN         | Hybrid                       |   0.207    |0.6     |0.308 |
+| RF          | SMOTE+TOMEK                  |  0.625     |0.5     |0.555 |
+| RF          | SMOTE+ENN                    |   0.461    |0.6     |0.522 |
+| XGBoost     | ADASYN                       |   0.5      |0.5     |0.5   |
+| XGBoost     | SMOTE                        |   0.454    |0.5     |0.476 |
+| DNN         | No resample                  |   0.114    |0.9     |0.2   |
+| RF          | No resample                  |   0.2      |0.1     |0.133 |
+| XGBoost     | No resample                  |   0.357    |0.5     |0.417 |
+
 
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/results_ensemble.png">
 
