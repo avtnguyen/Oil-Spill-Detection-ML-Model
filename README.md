@@ -39,7 +39,7 @@ Source: [Imbalanced learn](https://imbalanced-learn.org/stable/references/over_s
 **5. Build a simple deep learning network** and combine with multiple data augmentation techniques [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_deepLearningModel.ipynb)
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/DNN_summary.png">
 
-**6. Implement ensemble learning algorithms**, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_model.ipynb)
+**6. Implement ensemble learning algorithms**, which include Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_model.ipynb)
 
 ### Evaluation metrics
 For imbalance dataset and classification model, the following metrics are used to evaluate the model performance:
@@ -48,8 +48,10 @@ For imbalance dataset and classification model, the following metrics are used t
 * f1 score
 
 ### Results:
-- Both the precision, recall and f1 scores are low in all model. This could be due to the small imbalance dataset that we have. More data is needed to improve the model accuracy to detect oil spill event
-- Given the dataset without any resampling technique, XGBoost outperformed other algorithm, which is expected since the model 
+- Both the precision, recall and f1 scores are low in all model. This could be due to the small imbalance dataset that we have.
+- Given the dataset without any resampling technique, XGBoost outperformed other algorithm
+- When data augmentation technique is implemented, the performance of Random Forrest model is improved significantly using SMOTE+TOMEK technique as shown in table below.
+- More data is needed to improve the model accuracy to detect oil spill event
 
 
 | model       | resample                     | precision  | recall | f1   |
@@ -65,15 +67,13 @@ For imbalance dataset and classification model, the following metrics are used t
 | XGBoost     | No resample                  |   0.357    |0.5     |0.417 |
 
 
-<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/results_ensemble.png">
-
 
 ### Methods Used
 * Data Cleaning and Wrangling
 * Data Analysis
 * Data Visualization
 * Data Augmentation
-* Machine Learning Model: Deep learning network, Decision Tree, Random Forest, XGBoost
+* Machine Learning Model: Deep learning network, Random Forest, XGBoost
 
 ### Technologies
 * Pandas
@@ -96,7 +96,7 @@ For imbalance dataset and classification model, the following metrics are used t
 3. Data processing and modeling scripts are being kept [here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/)
 
 ## References:
-* Raw data is obtained from [Kaggle](https://www.kaggle.com/datasets/whenamancodes/dog-adoption), [US population census](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
+* Raw data is obtained from [Kaggle](https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection)
 * For further reading about dog shelters: [Challenges in animal shelters](https://globalnews.ca/news/8997583/canadian-animal-shelters-challenges/),
 [Popular breeds in dog shelters](https://rescuedoghome.com/why-are-there-so-many-pit-bulls-and-chihuahuas-in-shelters/#Chihuahuas_in_Shelters)
 
