@@ -14,7 +14,7 @@ Oil Spill: positive case, or minority class.
 [Source](https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection)
 
 ### Project Pipeline :
-1. Data processing and exploration: In this section, I performed data cleaning to remove NaN vaues and features that contains only zero values. I also checked for imblance classes and the data distribution as shown in the table below
+**1. Data processing and exploration:** In this section, I performed data cleaning to remove NaN vaues and features that contains only zero values. I also checked for imblance classes and the data distribution as shown in the table below
 
 | Category       | Total values  | Percentage(%)  |
 | -------------  |:-------------:| --------------:|
@@ -23,11 +23,11 @@ Oil Spill: positive case, or minority class.
 
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/Label_distribution.png">
 
-2. Feature selection: I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
+**2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
-3. Splitting the dataset to train, test sets based on the following specifications: Train size: 75%, test size: 25%, stratifying based on the y label  to ensure that both the train and test sets have the same class proportion similar to the original dataset. After that, I normalized both train and test datasets using the StandardScaller() to remove the mean and scaling to unit variance. 
+**3. Splitting the dataset** to train test sets based on the following specifications: Train size: 75%, test size: 25%, stratifying based on the y label  to ensure that both the train and test sets have the same class proportion similar to the original dataset. After that, I normalized both train and test datasets using the StandardScaller() to remove the mean and scaling to unit variance. 
 
-4. Data augmentation: Since the dataset is highly imbalanced, i implemented multiple data augmentation techniques to improve the quality of the dataset based on the following algorithms:
+**4. Data augmentation**: Since the dataset is highly imbalanced, i implemented multiple data augmentation techniques to improve the quality of the dataset based on the following algorithms:
 
 * Synthetic Minority Oversampling Technique(SMOTE): The sample in minority class is first selected randomly and its k nearest minority class neighbors are found based on the K-nearest neighbors algorithm. The synthetic data is generated between two instances in feature space. 
 * Adaptive Synthetic Sampling (ADASYN): The synthetic data for minority class is generated based on the desnity distribution of the minority class. Specifically, more data is created in area with low density of minority class and less data is generated in area with high density of minority example
@@ -36,10 +36,10 @@ Oil Spill: positive case, or minority class.
 
 Source: [Imbalanced learn](https://imbalanced-learn.org/stable/references/over_sampling.html)
  
-5. Build a simple deep learning network and combine with multiple data augmentation techniques [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_deepLearningModel.ipynb)
+**5. Build a simple deep learning network** and combine with multiple data augmentation techniques [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_deepLearningModel.ipynb)
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/DNN_summary.png">
 
-6. Implement ensemble learning algorithms, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection
+**6. Implement ensemble learning algorithms**, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection
 
 ### Methods Used
 * Data Cleaning and Wrangling
