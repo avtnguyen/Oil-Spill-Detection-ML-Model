@@ -81,7 +81,7 @@ For imbalance dataset and classification model, the following metrics are used t
 * Seaborn and Pyplot
 * sklearn
 * TensorFlow
-* imblearn
+* imbalanced-learn
 * Colab
 
 ## Needs of this project
