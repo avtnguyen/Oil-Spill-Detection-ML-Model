@@ -21,7 +21,8 @@ Oil Spill: positive case, or minority class.
 | Oil spill      | 41            | 4.38           |
 | No oil spill   | 896           |  95.62         |
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/Label_distribution.png))
+<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/Label_distribution.png">
+
 
 3. 
 4. Which states have the most dogs in shelters and what breeds/types those are? Does it have anything to do with the population in each states?
