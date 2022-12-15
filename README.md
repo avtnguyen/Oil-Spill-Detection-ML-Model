@@ -41,6 +41,16 @@ Source: [Imbalanced learn](https://imbalanced-learn.org/stable/references/over_s
 
 **6. Implement ensemble learning algorithms**, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_model.ipynb)
 
+### Evaluation metrics
+For imbalance dataset and classification model, the following metrics are used to evaluate the model performance:
+* Precision
+* Recall
+* f1 score
+
+### Results:
+
+
+
 ### Methods Used
 * Data Cleaning and Wrangling
 * Data Analysis
