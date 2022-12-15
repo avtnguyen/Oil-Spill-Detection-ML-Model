@@ -39,28 +39,34 @@ Source: [Imbalanced learn](https://imbalanced-learn.org/stable/references/over_s
 **5. Build a simple deep learning network** and combine with multiple data augmentation techniques [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_deepLearningModel.ipynb)
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/DNN_summary.png">
 
-**6. Implement ensemble learning algorithms**, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection
+**6. Implement ensemble learning algorithms**, which include Decision Tree, Random Forest, and XGBoost, and compare the model performance given the unbalanced dataset for oil spill detection [See code here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill_detection_model.ipynb)
 
 ### Methods Used
 * Data Cleaning and Wrangling
 * Data Analysis
 * Data Visualization
+* Data Augmentation
+* Machine Learning Model: Deep learning network, Decision Tree, Random Forest, XGBoost
 
 ### Technologies
 * Pandas
 * Numpy
 * Seaborn and Pyplot
+* sklearn
+* TensorFlow
+* imblearn
 * Colab
 
 ## Needs of this project
 - Data exploration/descriptive statistics
 - Data processing/cleaning
+- Data modeling
 - Writeup/reporting
 
 ## Getting Started
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is can be dowloaded from [Kaggle](https://www.kaggle.com/datasets/whenamancodes/dog-adoption), [US population census](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
-3. Data processing and visualization scripts are being kept [here](https://github.com/avtnguyen/Dog_Adoption_DataAnalysis/blob/main/Dog_Adoption_Data_Analysis_Project.ipynb)
+2. Raw Data is can be dowloaded from [this repository](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/oil_spill.csv) or from [Kaggle](https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection)
+3. Data processing and modeling scripts are being kept [here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/)
 
 ## References:
 * Raw data is obtained from [Kaggle](https://www.kaggle.com/datasets/whenamancodes/dog-adoption), [US population census](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
