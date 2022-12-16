@@ -1,5 +1,5 @@
 # Oil-Spill-Detection-Model
-<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/3837.jpg" width="500">
+<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/3837.jpg" width="500" align = "center">
 #### -- Project Status: [Completed]
 
 ## Project Objective
