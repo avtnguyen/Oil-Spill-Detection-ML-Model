@@ -1,4 +1,4 @@
-# Oil-Spill-Detection-Model
+# Oil Spill Detection Model
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/3837.jpg" width="500" align = "center">
 #### -- Project Status: [Completed]
 
@@ -53,6 +53,7 @@ For imbalance dataset and classification model, the following metrics are used t
 - When data augmentation technique is implemented, the performance of Random Forrest model is improved significantly using SMOTE+TOMEK technique as shown in table below.
 - More data is needed to improve the model accuracy for oil spill detection
 
+<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/f1_scores.png" width="500" align = "center">
 
 | model       | resample                     | precision  | recall | f1   |
 | ------------|:----------------------------:| ----------:|-------:|-----:|
