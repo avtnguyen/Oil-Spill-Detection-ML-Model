@@ -2,10 +2,26 @@
 <img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/3837.jpg" width="500" align = "center">
 #### -- Project Status: [Completed]
 
-## Project Objective
-The purpose of this project is to build a machine learning model to detect oil spill from satellite image using the processed dataset provided from Kaggle. In this project, i look at multiple different data augmentation techniques (SMOTE, ADASYN, etc) for imbalanced dataset and different supervised learning algorithms to improve the model performance. 
+## Project Motivations:
+
+Oil spills can have devastating environmental and economic impacts, including damage to ecosystems, wildlife, and human health. They can also disrupt economic activities, such as fishing and tourism, and harm local communities. As such, there is a need for effective tools to prevent, detect, and respond to oil spills.
+
+One potential solution is the use of satellite imagery to monitor and classify oil spills. Satellite imagery provides a comprehensive, real-time view of large areas, and can be used to detect and map oil spills with high spatial and temporal resolution.
+
+However, manually analyzing large amounts of satellite imagery to identify and classify oil spills is time-consuming and resource-intensive. Machine learning techniques can be used to automate this process, allowing for faster and more efficient analysis of satellite imagery.
+
+A machine learning model for oil spill classification could be trained on a large dataset of labeled satellite images, and then used to classify new images as either containing an oil spill or not. This could greatly improve the efficiency and accuracy of oil spill detection and classification, and allow for more timely and effective response to spills.
+
+Thus, the objective of this project is to develop an oil spill classification model from processed satellite images. By automating the analysis of satellite imagery with machine learning, it is possible to more effectively monitor and classify oil spills, enabling timely and appropriate response.
 
 ## Project Description
+
+The Oil Spill Prediction project involves the development of a machine learning model for the classification of oil spills. The model was built using various machine learning techniques, including random forest, XGBoost, data augmentation, and hyperparameter tuning.
+
+One of the main goals of the project was to improve the performance of the model, and this was achieved by conducting a comparative analysis and optimizing key classification metrics. As a result of these efforts, the performance of the model was improved by 25%.
+
+The model will be used to predict the likelihood of an oil spill occurring in a given location based on the processed  satellite images. This could be used for a variety of purposes, such as environmental protection, risk assessment, and emergency response planning.
+
 **About the dataset** The dataset was developed by starting with satellite images of the ocean, some of which contain an oil spill and some that do not. Images were split into sections and processed using computer vision algorithms to provide a vector of features to describe the contents of the image section or patch.
 The task is, given a vector that describes the contents of a patch of a satellite image, then predicts whether the patch contains an oil spill or not, e.g. from the illegal or accidental dumping of oil in the ocean. There are two classes and the goal is to distinguish between spill and non-spill using the features for a given ocean patch. 
 
